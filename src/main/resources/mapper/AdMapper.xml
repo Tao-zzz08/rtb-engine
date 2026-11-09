@@ -2,10 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.example.rtb_engine.mapper.AdMapper">
+<mapper namespace="com.rtb.mapper.AdMapper">
 
     <select id="findCandidates"
-            resultType="com.example.rtb_engine.entity.Ad">
+            resultType="com.rtb.entity.Ad">
 
         SELECT
         a.id,
